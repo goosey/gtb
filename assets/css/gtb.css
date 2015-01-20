@@ -579,42 +579,68 @@ section {
   section img {
     max-width: 100%; }
 
-/* line 217, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 3, /Users/abaldwin/dev/gtb/assets/css/_about.scss */
+.index.about body {
+  display: block; }
+  /* line 6, /Users/abaldwin/dev/gtb/assets/css/_about.scss */
+  .index.about body header {
+    height: 50%;
+    position: absolute;
+    top: -2em; }
+  /* line 12, /Users/abaldwin/dev/gtb/assets/css/_about.scss */
+  .index.about body nav {
+    top: 0;
+    bottom: inherit; }
+  /* line 17, /Users/abaldwin/dev/gtb/assets/css/_about.scss */
+  .index.about body section {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin: 4em auto 0 auto;
+    max-width: 70em;
+    border-radius: 3px;
+    position: relative;
+    top: 35%;
+    z-index: 1000; }
+    /* line 27, /Users/abaldwin/dev/gtb/assets/css/_about.scss */
+    .index.about body section h2 {
+      font-family: "Varela Round", sans-serif; }
+
+/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(0) {
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay: 0s;
   animation-delay: 0s; }
 
-/* line 217, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(1) {
   -webkit-animation-delay: 3s;
   -moz-animation-delay: 3s;
   -o-animation-delay: 3s;
   animation-delay: 3s; }
 
-/* line 217, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(2) {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s; }
 
-/* line 217, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(3) {
   -webkit-animation-delay: 9s;
   -moz-animation-delay: 9s;
   -o-animation-delay: 9s;
   animation-delay: 9s; }
 
-/* line 217, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(4) {
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   -o-animation-delay: 12s;
   animation-delay: 12s; }
 
-/* line 217, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(5) {
   -webkit-animation-delay: 15s;
   -moz-animation-delay: 15s;
@@ -622,36 +648,36 @@ section {
   animation-delay: 15s; }
 
 @media (max-width: 730px) {
-  /* line 231, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 232, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   .index body header {
     height: 70%;
     justify-content: flex-start; }
-    /* line 235, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 236, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body header h1 {
       display: flex;
       padding-left: 2em; }
-    /* line 236, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 237, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body header span {
       margin-left: 0.5em; }
-    /* line 237, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 238, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body header svg {
       display: none; }
-  /* line 240, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 241, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   .index body nav {
     justify-content: flex-start !important;
     height: 30%;
     padding: 1.5em 3em 1.5em 3em;
     min-width: 0; }
-    /* line 246, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 247, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body nav a {
       margin: 0.3em 0.6em; }
 
-  /* line 252, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 253, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   header {
     height: 4em;
     overflow: visible;
     background: rgba(0, 0, 0, 0.8); }
-    /* line 257, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 258, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     header nav {
       left: 0;
       padding-top: 1em;
@@ -664,52 +690,52 @@ section {
       width: 100%;
       min-width: 100%;
       height: auto; }
-      /* line 270, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+      /* line 271, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
       header nav a {
         text-align: left;
         margin: 0.2em 0.6em;
         color: #ddd; }
 
-  /* line 278, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 279, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   .article section {
     padding: 2em; }
 
-  /* line 282, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 283, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.grid {
     top: 4em;
     margin: 0; }
-    /* line 286, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 287, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     section.grid section.release {
       margin: 0.5em 0;
       flex-basis: 100%;
       flex-grow: 0 !important;
       flex-shrink: 0 !important; }
 
-  /* line 294, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 295, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   footer {
     top: 4em; } }
 @media (max-width: 497px) {
-  /* line 303, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 304, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.grid {
     top: 6.5em !important; }
 
-  /* line 304, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 305, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.release .info span.title {
     font-size: 1.2em !important; } }
 @media (min-width: 1600px) {
-  /* line 309, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 310, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   nav {
     max-width: 55em; }
 
-  /* line 315, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 316, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.grid section.release {
     font-size: 1.2em;
     flex-basis: 30%;
     flex-grow: 1 !important;
     flex-shrink: 0 !important; }
-    /* line 321, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 322, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     section.grid section.release:nth-child(6n+4) {
       flex-grow: 6 !important; }
-    /* line 323, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 324, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     section.grid section.release:hover {
       flex-grow: 10 !important; } }

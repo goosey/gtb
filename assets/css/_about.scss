@@ -1,0 +1,34 @@
+// .about
+
+.index.about body {
+    display:block;
+
+    header {
+        height:50%;
+        position:absolute;
+        top:-2em;
+    }
+
+    nav {
+        top:0;
+        bottom:inherit;
+    }
+    
+    section {
+        background:rgba(255,255,255,0.1);
+        color:#fff;
+        margin:4em auto 0 auto;
+        max-width:70em;
+        border-radius:3px;
+        position:relative;
+        top:35%;
+        z-index:1000;
+        
+        h2 {
+            font-family:$headings;
+        }
+    }
+    
+    
+    
+}

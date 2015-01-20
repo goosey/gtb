@@ -207,9 +207,10 @@ footer {
 // pages
 
 @import '_index';
-@import 'grid';
+@import '_grid';
 @import '_feature';
 @import '_article';
+@import '_about';
 
 // do some things
 
