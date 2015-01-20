@@ -1,31 +1,51 @@
 // .about
 
-.index.about body {
-    display:block;
+@include keyframes(self-dot) {
+    0%      {stroke-dasharray: 75% 50%;}
+    50%     {stroke-dasharray: 150% 50%;}
+    100%    {stroke-dasharray: 75% 50%;}
+}	
 
+.about body {
+    
     header {
-        height:50%;
-        position:absolute;
-        top:-2em;
+        background:none;
+        svg .drawable {display:none;}
     }
-
-    nav {
-        top:0;
-        bottom:inherit;
+    
+    svg#bg {
+        position:fixed;
+        z-index:-1000;
+        width:150%;
+        height:150%;
+        top:-25%;
+        left:-25%;
+        
+        .draw * {
+            stroke:rgba(255,255,255,0.05);
+            stroke-width:1px;
+            @include animation('self-dot 16s linear infinite');
+            -webkit-animation-fill-mode:forwards;
+               -moz-animation-fill-mode:forwards;
+                 -o-animation-fill-mode:forwards;
+                    animation-fill-mode:forwards;
+        }
     }
     
     section {
         background:rgba(255,255,255,0.1);
         color:#fff;
-        margin:4em auto 0 auto;
-        max-width:70em;
+        margin:-4em auto 0 auto;
+        max-width:60em;
         border-radius:3px;
         position:relative;
         top:35%;
         z-index:1000;
+        font-size:1.2em;
         
         h2 {
             font-family:$headings;
+            font-size:2em;
         }
     }
     
