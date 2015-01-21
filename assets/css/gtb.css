@@ -550,7 +550,13 @@ section.grid {
   position: relative;
   top: 60%;
   min-height: 4em;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: 5px solid #ddd; }
+/* line 20, /Users/abaldwin/dev/gtb/assets/css/_feature.scss */
+.feature footer {
+  top: 60%;
+  margin: 2.5em 0 1.6em 0;
+  color: rgba(255, 255, 255, 0.4); }
 
 /* line 3, /Users/abaldwin/dev/gtb/assets/css/_article.scss */
 section {
