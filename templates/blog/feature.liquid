@@ -1,8 +1,6 @@
 {% block pagetype %}feature article{% endblock %}
 {% block content %} 
 
-{%include "header" %}
-
 <script type="text/javascript">
     $(function(){
 
@@ -16,7 +14,7 @@
 
 <section>
     <article>
-        <img class="feature" src="https://s3.amazonaws.com/ksr/projects/1581217/photo-1024x768.jpg?1420680913">
+        <img class="feature" src="{{ "la_soundtrack.jpg" | asset_url }}">
         <h2>Kickstarter time! Bring echo vessel's <i>L.A. Soundtrack</i> to vinyl</h2>
         <p class="meta">20:24 EST 01/19/2015 by <i>Alex</i></p>
         <p>You've heard <b>echo vessel</b>'s new album, <i>L.A. Soundtrack</i>, right? If you haven't, go listen, like, right now. It's incredible, and our friends over at Collected Recordings launched a Kickstarter today to bring the masterpiece to vinyl. Meysell talked about it on his tumblr:</p>
@@ -24,9 +22,6 @@
             <p>here&rsquo;s the thing: from the album&rsquo;s conception, i really wanted to make vinyl. like, really really. all of us at Collected are kind of psyched on that idea. over the last couple of months we&rsquo;ve done a lot of pricing stuff out and throwing in some of our own personal funds and determined that we could at least TRY a crowdfunding campaign to get this out. we&rsquo;ve determined that we need at least $2,250 to make this happen - that&rsquo;s where you come in. we&rsquo;ve set up a series of really nice rewards and merch to entice potential backers, and i&rsquo;ve been hard at work designing every little bit of packaging for this project, from wax to tape to cardboard box.</p>
             <p>if you&rsquo;d like to pledge, you can take a look at the Kickstarter page here: <a href="https://www.kickstarter.com/projects/collectedrec/la-soundtrack-on-vinyl" target="_blank">https://www.kickstarter.com/projects/collectedrec/la-soundtrack-on-vinyl</a></p>
         </blockquote>
-        <p>haha</p>
-        <p>lines</p>
-        <p>do footer stay</p>
         <p><a class="cta" href="https://www.kickstarter.com/projects/collectedrec/la-soundtrack-on-vinyl">Check out the Kickstarter!</a></p>
         <p>You can stream <i>L.A. Soundtrack</i> below.</p>
         <p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/69253329&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>

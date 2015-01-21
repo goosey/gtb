@@ -360,10 +360,10 @@ a {
 /* line 196, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 footer {
   font-size: 0.6em;
-  color: #bbb;
+  color: rgba(255, 255, 255, 0.4);
   height: 2em;
   position: relative;
-  top: 30em;
+  margin: 2.5em 0 1.6em 0;
   width: 100%;
   text-align: center; }
 
@@ -539,6 +539,89 @@ section.grid {
         left: -11em;
         z-index: -10; }
 
+/* line 5, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+.blog section.post {
+  margin: 1em;
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 14em;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -khtml-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  padding: 2em;
+  border-top: 1em solid rgba(255, 255, 255, 0.1);
+  overflow: hidden; }
+  /* line 21, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+  .blog section.post h2 {
+    font-family: "Varela Round", sans-serif; }
+  /* line 23, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+  .blog section.post a {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display: block; }
+  /* line 30, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+  .blog section.post .meta {
+    margin: 0;
+    display: block;
+    position: absolute;
+    bottom: -2em;
+    padding: 1em 0;
+    color: rgba(255, 255, 255, 0.35);
+    -webkit-transition: all 200ms ease-in;
+    -khtml-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in; }
+  /* line 40, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+  .blog section.post.feature {
+    height: auto;
+    flex-grow: 0;
+    padding: 0 0 2em 0;
+    border-top: 0; }
+    /* line 46, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+    .blog section.post.feature .meta {
+      padding-left: 4em; }
+    /* line 48, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+    .blog section.post.feature h2 {
+      margin: 0 2em; }
+    /* line 50, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+    .blog section.post.feature img {
+      margin-bottom: 2em;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+      width: 100%;
+      float: none;
+      display: block;
+      -webkit-transition: all 200ms ease-in;
+      -khtml-transition: all 200ms ease-in;
+      -moz-transition: all 200ms ease-in;
+      -ms-transition: all 200ms ease-in;
+      -o-transition: all 200ms ease-in;
+      transition: all 200ms ease-in;
+      border-bottom: 1em solid rgba(255, 255, 255, 0.1); }
+  /* line 62, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+  .blog section.post:hover {
+    border-top-width: 0; }
+    /* line 64, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+    .blog section.post:hover.feature {
+      padding-bottom: 3em; }
+      /* line 66, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+      .blog section.post:hover.feature img {
+        border-bottom-width: 0; }
+    /* line 69, /Users/abaldwin/dev/gtb/assets/css/_blog.scss */
+    .blog section.post:hover .meta {
+      bottom: 1em; }
+
 /* line 4, /Users/abaldwin/dev/gtb/assets/css/_feature.scss */
 .feature header {
   background: rgba(0, 0, 0, 0.6); }
@@ -548,15 +631,13 @@ section.grid {
 /* line 12, /Users/abaldwin/dev/gtb/assets/css/_feature.scss */
 .feature section {
   position: relative;
-  top: 60%;
+  top: 40%;
   min-height: 4em;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 5px solid #ddd; }
 /* line 20, /Users/abaldwin/dev/gtb/assets/css/_feature.scss */
 .feature footer {
-  top: 60%;
-  margin: 2.5em 0 1.6em 0;
-  color: rgba(255, 255, 255, 0.4); }
+  top: 40%; }
 
 /* line 3, /Users/abaldwin/dev/gtb/assets/css/_article.scss */
 section {
@@ -668,42 +749,42 @@ section {
     font-family: "Varela Round", sans-serif;
     font-size: 2em; }
 
-/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 219, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(0) {
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay: 0s;
   animation-delay: 0s; }
 
-/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 219, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(1) {
   -webkit-animation-delay: 3s;
   -moz-animation-delay: 3s;
   -o-animation-delay: 3s;
   animation-delay: 3s; }
 
-/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 219, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(2) {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s; }
 
-/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 219, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(3) {
   -webkit-animation-delay: 9s;
   -moz-animation-delay: 9s;
   -o-animation-delay: 9s;
   animation-delay: 9s; }
 
-/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 219, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(4) {
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   -o-animation-delay: 12s;
   animation-delay: 12s; }
 
-/* line 218, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+/* line 219, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
 .index header ul li:nth-child(5) {
   -webkit-animation-delay: 15s;
   -moz-animation-delay: 15s;
@@ -711,36 +792,36 @@ section {
   animation-delay: 15s; }
 
 @media (max-width: 730px) {
-  /* line 232, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 233, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   .index body header {
     height: 70%;
     justify-content: flex-start; }
-    /* line 236, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 237, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body header h1 {
       display: flex;
       padding-left: 2em; }
-    /* line 237, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 238, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body header span {
       margin-left: 0.5em; }
-    /* line 238, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 239, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body header svg {
       display: none; }
-  /* line 241, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 242, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   .index body nav {
     justify-content: flex-start !important;
     height: 30%;
     padding: 1.5em 3em 1.5em 3em;
     min-width: 0; }
-    /* line 247, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 248, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     .index body nav a {
       margin: 0.3em 0.6em; }
 
-  /* line 253, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 254, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   header {
     height: 4em;
     overflow: visible;
     background: rgba(0, 0, 0, 0.8); }
-    /* line 258, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 259, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     header nav {
       left: 0;
       padding-top: 1em;
@@ -753,55 +834,59 @@ section {
       width: 100%;
       min-width: 100%;
       height: auto; }
-      /* line 271, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+      /* line 272, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
       header nav a {
         text-align: left;
         margin: 0.2em 0.6em;
         color: #ddd; }
 
-  /* line 279, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 280, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   .article section {
     padding: 2em; }
 
-  /* line 283, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 284, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.grid {
     top: 4em;
     margin: 0; }
-    /* line 287, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 288, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     section.grid section.release {
       margin: 0.5em 0;
       flex-basis: 100%;
       flex-grow: 0 !important;
       flex-shrink: 0 !important; }
 
-  /* line 295, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 296, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   footer {
     top: 4em; } }
 @media (max-width: 497px) {
-  /* line 304, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 305, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.grid {
     top: 6.5em !important; }
 
-  /* line 305, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 306, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.release .info span.title {
-    font-size: 1.2em !important; } }
+    font-size: 1.2em !important; }
+
+  /* line 307, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  footer {
+    margin-top: 6.2em; } }
 @media (min-width: 1600px) {
-  /* line 310, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 312, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   nav {
     max-width: 55em; }
 
-  /* line 316, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+  /* line 318, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
   section.grid section.release {
     font-size: 1.2em;
     flex-basis: 30%;
     flex-grow: 1 !important;
     flex-shrink: 0 !important; }
-    /* line 322, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 324, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     section.grid section.release:nth-child(6n+4) {
       flex-grow: 6 !important; }
-    /* line 324, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+    /* line 326, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
     section.grid section.release:hover {
       flex-grow: 10 !important; }
-      /* line 326, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
+      /* line 328, /Users/abaldwin/dev/gtb/assets/css/gtb.scss */
       section.grid section.release:hover.soundcloud {
         flex-grow: 0 !important; } }

@@ -1,0 +1,76 @@
+// .blog
+
+.blog {
+
+    section.post {
+        margin:1em;
+        flex-basis:30%;
+        flex-grow:1;
+        flex-shrink:0;
+        //display:flex;
+        height:14em;
+        border-radius:3px;
+        background:rgba(255,255,255,0.1);
+        position:relative;
+        @include transition(all 200ms ease-in);
+        cursor:pointer;
+        padding:2em;
+        border-top:1em solid rgba(255,255,255,0.1);
+        overflow:hidden;
+        
+        h2 {font-family:$headings;}
+        
+        a {
+            opacity:1;
+            color:rgba(255,255,255,0.8);
+            text-decoration:none;
+            display:block;
+        }
+        
+        .meta {
+            margin:0;
+            display:block;
+            position:absolute;
+            bottom:-2em;
+            padding:1em 0;
+            color:rgba(255,255,255,0.35);
+            @include transition(all 200ms ease-in);
+        }
+        
+        &.feature {
+            height:auto;
+            flex-grow:0;
+            padding:0 0 2em 0;
+            border-top:0;
+            
+            .meta {padding-left:4em;}
+            
+            h2 {margin:0 2em;}
+            
+            img {
+                margin-bottom:2em;
+                border-top-right-radius:3px;
+                border-top-left-radius:3px;
+                width:100%;
+                float:none;
+                display:block;
+                @include transition(all 200ms ease-in);
+                border-bottom:1em solid rgba(255,255,255,0.1);
+            }
+        }
+        
+        &:hover {
+            border-top-width:0;
+            &.feature {
+                padding-bottom:3em;
+                img {border-bottom-width:0;}
+            }
+            
+            .meta {
+                bottom:1em;
+            }
+        }
+        
+    }
+
+}
